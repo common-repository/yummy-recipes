@@ -1,0 +1,1053 @@
+/*
+This CSS file can be overridden by copying it to yourtheme/yummy/yummy.css
+*/
+.yummy-big-card {
+	margin: 2rem 0 1rem 0;
+	padding: 0 1rem;
+	max-width: 700px;
+	font-size: 16px;
+}
+
+.yummy-big-card .yummy-big-card-title {
+	font-size: 26px;
+}
+
+.yummy-big-card h3.yummy-big-card-subtitle {
+	text-align: left;
+	margin: 8px 0 16px 0;
+	font-size: 22px;
+}
+
+.yummy-big-card h4.yummy-big-card-subtitle {
+	margin: 8px 0 16px 0;
+	font-size: 18px;
+}
+
+.yummy-big-card .yummy-big-card-meta .yummy-icon {
+	position: relative;
+	top: -2px;
+}
+
+.yummy-big-card-style-classic {
+	border: 1px solid #222;
+	background: #fff;
+}
+
+.yummy-big-card-style-classic .yummy-big-card-top {
+	margin: 0 -1rem 1rem -1rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-flow: column wrap;
+	flex-flow: column wrap;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.yummy-big-card-style-classic .yummy-big-card-image {
+	overflow: hidden;
+}
+
+.yummy-big-card-style-classic .yummy-big-card-image img {
+	display: block;
+	height: auto;
+	width: 100%;
+	max-width: none;
+}
+
+.yummy-big-card-style-classic .yummy-big-card-top-content,
+.yummy-big-card-style-classic .yummy-big-card-buttons {
+	border-top: 1px solid #222;
+}
+
+.yummy-big-card-style-classic .yummy-big-card-description,
+.yummy-big-card-style-classic .yummy-big-card-ingredients,
+.yummy-big-card-style-classic .yummy-nutrition-facts-header,
+.yummy-big-card-style-classic .yummy-nutrition-facts-row,
+.yummy-big-card-style-classic .yummy-big-card-top {
+	border-bottom: 1px solid #222;
+}
+
+.yummy-big-card-style-classic .yummy-big-card-top-content {
+	padding: 1rem;
+}
+
+.yummy-big-card-style-classic .yummy-big-card-meta {
+	display: block;
+	padding: 0.25rem 0;
+}
+
+.yummy-big-card-style-classic .yummy-big-card-description {
+	margin: 0 -1rem 1rem -1rem;
+	padding: 1rem;
+}
+
+.yummy-big-card-style-classic .yummy-big-card-ingredients {
+	margin: 0 -1rem 1rem -1rem;
+	padding: 1rem;
+}
+
+.yummy-big-card-style-classic button.yummy-change-servings {
+	border-color: #222;
+	border-radius: 0;
+}
+
+.yummy-big-card-style-classic .yummy-big-card-buttons-print-bookmark {
+	margin-top: -1rem;
+	margin-bottom: -1rem;
+	padding: 1rem 0 1rem 1rem;
+	border-left: 1px solid #222;
+}
+
+.yummy-big-card-style-classic .yummy-nutrition-facts {
+	border: 1px solid #222;
+}
+
+.yummy-big-card-style-modern {
+	margin-top: 5rem;
+	background: #fff;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.yummy-big-card-style-modern .yummy-big-card-top {
+	margin: -1rem -1rem 1rem -1rem;
+	padding: 2rem 1rem;
+	text-align: center;
+	background: #fafafa;
+	border-radius: 3px 3px 0 0;
+}
+
+.yummy-big-card-style-modern .yummy-big-card-image img {
+	margin: -3rem auto 0 auto;
+	border-radius: 50%;
+	border-width: 0.5rem;
+	border-style: solid;
+	border-color: #e2e2e2;
+}
+
+.yummy-big-card-style-modern .yummy-big-card-meta {
+	display: inline-block;
+	padding: 0 0.25rem;
+}
+
+.yummy-big-card-style-modern button.yummy-change-servings {
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), to(#eee));
+	background-image: linear-gradient(to bottom, #fff 0, #eee 100%);
+	border-color: #ddd;
+}
+
+.yummy-big-card-style-modern .yummy-big-card-buttons {
+	background: #fafafa;
+}
+
+.yummy-big-card-style-modern .yummy-nutrition-facts {
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+}
+
+.yummy-big-card-style-modern .yummy-nutrition-facts-header {
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.yummy-big-card-style-modern .yummy-nutrition-facts-row {
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.yummy-big-card-style-hero {
+	background: #fff;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.yummy-big-card-style-hero .yummy-big-card-top {
+	margin: 0 -1rem 1rem -1rem;
+	text-align: center;
+	overflow: hidden;
+}
+
+.yummy-big-card-style-hero .yummy-big-card-image img {
+	display: block;
+	border-radius: 3px 3px 0 0;
+	border-top-width: 5px;
+	border-top-style: solid;
+}
+
+.yummy-big-card-style-hero .yummy-big-card-top-content {
+	border-radius: 3px;
+	position: relative;
+	z-index: 2;
+	width: 96%;
+	margin: -40px 2% 0 2%;
+	padding: 1rem;
+	background: #fff;
+	-webkit-box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.yummy-big-card-style-hero .yummy-big-card-meta {
+	display: inline-block;
+	padding: 0 0.25rem;
+}
+
+.yummy-big-card-style-hero .yummy-nutrition-facts {
+	border: 1px solid #f2f2f2;
+}
+
+.yummy-big-card-style-hero .yummy-nutrition-facts-header {
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.yummy-big-card-style-hero .yummy-nutrition-facts-row {
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.yummy-big-card-style-hero .yummy-big-card-buttons {
+	border-top: 1px solid #f2f2f2;
+}
+
+.yummy-big-card-top-is-dark .yummy-big-card-top,
+.yummy-big-card-top-is-dark .yummy-big-card-top h2 {
+	color: #f2f2f2;
+}
+
+.yummy-big-card-meta-title {
+	font-weight: bold;
+}
+
+.yummy-big-card-top h2.yummy-big-card-title {
+	margin: 0 auto 0.5em auto;
+	max-width: 16em;
+}
+
+.yummy-big-card-ingredients-top {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.yummy-big-card-ingredients-top h3.yummy-big-card-subtitle {
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+
+.yummy-big-card-servings {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 1rem 0;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.yummy-big-card-servings-buttons {
+	margin-left: 16px;
+}
+
+.yummy-ingredient-list-items li {
+	list-style: none;
+}
+
+.yummy-big-card-author {
+	margin: 0.5rem 0;
+}
+
+.yummy-avatar {
+	display: inline-block;
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-right: 6px;
+}
+
+.yummy-big-card-buttons {
+	margin: 0 -1rem;
+	padding: 1rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.yummy-big-card-buttons button.yummy-icon-button:not(:last-child),
+.yummy-big-card-buttons a.yummy-icon-button:not(:last-child) {
+	margin-right: 10px;
+}
+
+.yummy-big-card-buttons-print-bookmark {
+	margin-left: auto;
+}
+
+.yummy-big-card-instructions,
+.yummy-big-card-taxonomies,
+.yummy-big-card-video-embed,
+.yummy-big-card-description {
+	margin-bottom: 2rem;
+}
+
+.yummy-card-grid {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	margin: 0 -0.5rem;
+}
+
+.yummy-small-card {
+	max-width: 160px;
+	overflow: hidden;
+	margin: 0 0.5rem 1rem;
+}
+
+.yummy-small-card.yummy-small-card-is-dark a {
+	color: #f2f2f2;
+}
+
+.yummy-small-card a {
+	display: block;
+	font-weight: normal;
+	text-decoration: none !important;
+	border: 0 !important;
+	color: #666;
+}
+
+.yummy-small-card-image img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.yummy-small-card-content {
+	padding: 1rem 0.75rem;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.yummy-small-card-content .yummy-star-rating-wrap {
+	margin-bottom: 6px;
+}
+
+.yummy-small-card-content-title {
+	margin: 0;
+	font-size: 16px;
+	line-height: 1.2;
+	font-weight: normal;
+	color: #222;
+}
+
+.yummy-small-card-is-dark .yummy-small-card-content-title {
+	color: #f2f2f2;
+}
+
+.yummy-small-card-content-count {
+	font-size: 14px;
+	color: #222;
+}
+
+.yummy-small-card-is-dark .yummy-small-card-content-count {
+	color: #f2f2f2;
+}
+
+.yummy-small-card-author {
+	margin-top: 0.5rem;
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.yummy-small-card-style-classic {
+	background: #fff;
+	border: 1px solid #222;
+}
+
+.yummy-small-card-style-classic a {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	height: 100%;
+}
+
+.yummy-small-card-style-classic.yummy-small-card-is-dark a {
+	color: #f2f2f2;
+}
+
+.yummy-small-card-style-classic .yummy-small-card-content {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	height: 100%;
+	border-top: 1px solid #222;
+}
+
+.yummy-small-card-style-classic .yummy-small-card-content-title {
+	margin-bottom: auto;
+}
+
+.yummy-small-card-style-classic .yummy-small-card-author {
+	padding: 0.5rem 0.75rem 0.5rem;
+	margin: 0.75rem -0.75rem -1rem;
+	border-top: 1px solid #222;
+	color: #222;
+}
+
+.yummy-small-card-style-modern {
+	background: #fff;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.yummy-small-card-style-modern a {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	height: 100%;
+}
+
+.yummy-small-card-style-modern.yummy-small-card-is-dark a {
+	color: #f2f2f2;
+}
+
+.yummy-small-card-style-modern .yummy-small-card-content {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	height: 100%;
+}
+
+.yummy-small-card-style-modern .yummy-small-card-content-title {
+	margin-bottom: auto;
+}
+
+.yummy-small-card-style-modern .yummy-small-card-author {
+	padding: 0.5rem 0.75rem 0.5rem;
+	margin: 0.75rem -0.75rem -1rem;
+	background: rgba(0, 0, 0, 0.025);
+	color: #222;
+}
+
+.yummy-small-card-style-modern.yummy-small-card-is-dark .yummy-small-card-author {
+	background: rgba(255, 255, 255, 0.1);
+	color: #f2f2f2;
+}
+
+.yummy-small-card-style-overlay {
+	height: 160px;
+	position: relative;
+	border-radius: 3px;
+}
+
+.yummy-small-card-style-overlay a {
+	color: #f2f2f2 !important;
+}
+
+.yummy-small-card-style-overlay .yummy-small-card-content {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 1rem 1rem 1rem 1rem;
+	width: 100%;
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(0, 0, 0, 0.9)), color-stop(75%, rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0)));
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0, 0.6) 75%, rgba(0, 0, 0, 0) 100%);
+}
+
+.yummy-small-card-style-overlay .yummy-small-card-content .yummy-star-rating-wrap {
+	margin-bottom: 0;
+}
+
+.yummy-small-card-style-overlay .yummy-small-card-content-title {
+	color: #f2f2f2;
+}
+
+.yummy-small-card-style-overlay .yummy-small-card-author {
+	color: #f2f2f2 !important;
+}
+
+.yummy-instructions ol {
+	counter-reset: li;
+}
+
+.yummy-instructions ol > li {
+	list-style: none;
+	padding-left: 28px;
+	position: relative;
+	clear: both;
+}
+
+.yummy-instructions ol > li::before {
+	content: counter(li);
+	counter-increment: li;
+	display: inline-block;
+	border-radius: 50%;
+	font-size: 14px;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	position: absolute;
+	top: 4px;
+	left: 0;
+	background-color: #333;
+	color: #f2f2f2;
+}
+
+.yummy-instructions-step-is-light .yummy-instructions ol > li::before {
+	color: #333;
+}
+
+.yummy-search-form {
+	margin-bottom: 2rem;
+}
+
+.yummy-search-form-fieldset,
+.yummy-search-sort-fieldset {
+	border: 0;
+	padding: 0;
+	margin-bottom: 1rem;
+	display: block;
+}
+
+.yummy-search-keyword-label,
+.yummy-search-form-legend {
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	font-size: inherit;
+}
+
+.yummy-search-keyword-label {
+	margin-bottom: 0.75rem;
+}
+
+.yummy-search-keyword-input {
+	margin: 0;
+	display: block;
+}
+
+.yummy-search-checkbox {
+	display: block;
+}
+
+.yummy-search-checkbox .yummy-search-checkbox-input {
+	clear: none;
+	display: inline-block;
+	padding: 0;
+	margin: 0 0.25rem 0 0;
+	vertical-align: middle;
+	line-height: inherit;
+}
+
+.yummy-search-checkbox .yummy-search-checkbox-label {
+	padding: 0;
+	margin: 0;
+	clear: none;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: inherit;
+}
+
+.yummy-search-radio {
+	display: inline-block;
+	margin-right: 0.5rem;
+}
+
+.yummy-search-radio .yummy-sort-radio-input {
+	display: inline-block;
+	padding: 0;
+	margin: 0 0.25rem 0 0;
+	vertical-align: middle;
+	line-height: inherit;
+}
+
+.yummy-search-radio .yummy-sort-radio-label {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: inherit;
+}
+
+.yummy-search-results-number {
+	margin: 1rem 0;
+}
+
+.yummy-ajax-target-recipes .yummy-card-grid {
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	opacity: 1;
+}
+
+.yummy-ajax-target-recipes .yummy-card-grid-is-loading {
+	opacity: 0;
+}
+
+.yummy-pagination {
+	margin-bottom: 1rem;
+}
+
+.yummy-pagination-links {
+	display: inline-block;
+}
+
+.yummy-pagination-total-pages {
+	display: inline-block;
+	color: #666;
+}
+
+.yummy-pagination-link {
+	display: inline-block;
+	display: inline-block;
+	padding: 0.25rem 0.25rem;
+	min-width: 1.5em;
+	color: inherit;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+}
+
+.yummy-pagination-link.active {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.yummy-pagination-total-pages {
+	padding-left: 0.5rem;
+}
+
+button.yummy-button,
+button[type="submit"].yummy-button,
+a.yummy-button {
+	display: inline-block;
+	padding: 0.25em 0.75em;
+	margin: 0;
+	border-radius: 3px;
+	font-family: inherit;
+	font-weight: normal;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: none;
+	line-height: 1.5;
+	letter-spacing: 0;
+	background: #f2f2f2;
+	color: #222;
+	border: 1px solid #ddd;
+	min-width: 2.5em;
+	text-align: center;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+}
+
+button.yummy-button:hover,
+button[type="submit"].yummy-button:hover,
+a.yummy-button:hover {
+	background: #eee;
+	color: #222;
+	text-decoration: none;
+}
+
+button.yummy-icon-button,
+a.yummy-icon-button {
+	display: inline-block;
+	margin: 0;
+	min-width: none;
+	border-radius: 50%;
+	line-height: 1;
+	color: inherit;
+	border: none;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	width: 34px;
+	height: 34px;
+	padding: 5px 0;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+button.yummy-icon-button svg.yummy-icon,
+a.yummy-icon-button svg.yummy-icon {
+	fill: #f2f2f2;
+	width: 24px;
+	height: 24px;
+}
+
+button.yummy-icon-button.yummy-icon-button-print,
+a.yummy-icon-button.yummy-icon-button-print {
+	background-color: #222;
+}
+
+button.yummy-icon-button.yummy-icon-button-bookmark,
+a.yummy-icon-button.yummy-icon-button-bookmark {
+	background-color: #222;
+}
+
+button.yummy-icon-button.yummy-icon-button-on,
+a.yummy-icon-button.yummy-icon-button-on {
+	background-color: #999;
+}
+
+button.yummy-icon-button {
+	background-color: transparent;
+}
+
+.yummy-icon-button-social-facebook {
+	background-color: #3b5998;
+}
+
+.yummy-icon-button-social-pinterest {
+	background-color: #bd081c;
+}
+
+.yummy-icon-button-social-twitter {
+	background-color: #1da1f2;
+}
+
+.yummy-buttons .yummy-button {
+	margin: 0 0.375em 0.375em 0;
+}
+
+.yummy-button-is-loading {
+	opacity: 0.25;
+}
+
+button.yummy-change-servings {
+	background: transparent;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ddd;
+	padding: 0.375rem 0.625rem;
+	line-height: 1;
+	font-size: 16px;
+	border-radius: 3px 0 0 3px;
+	color: #222;
+}
+
+button.yummy-change-servings:focus,
+button.yummy-change-servings:active {
+	outline: none;
+	text-decoration: none;
+}
+
+button.yummy-change-servings-add {
+	border-left-width: 0;
+	border-radius: 0 3px 3px 0;
+}
+
+svg.yummy-icon {
+	vertical-align: middle;
+	fill: inherit;
+	display: inline-block;
+}
+
+svg.yummy-icon-stars {
+	min-height: 18px;
+	fill: #e6b200;
+}
+
+.yummy-big-card-top-is-dark .yummy-big-card-top-details svg {
+	fill: #eee;
+}
+
+.yummy-star-rating-wrap {
+	display: inline-block;
+	overflow: hidden;
+	line-height: 18px;
+	height: 18px;
+	font-size: 18px;
+}
+
+.yummy-big-card-rating .yummy-star-rating-wrap {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.yummy-big-card-rating-text {
+	color: inherit;
+	font-size: 14px;
+	margin-bottom: 1rem;
+}
+
+.yummy-comment-form-rating-fieldset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+.yummy-comment-form-rating-legend {
+	padding: 0;
+	margin: 0;
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+input.yummy-input-radio-star {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	right: 100%;
+}
+
+input.yummy-input-radio-star + label {
+	font-size: 18px;
+	line-height: 18px;
+	height: 18px;
+	padding: 4px 2px;
+	margin: 0;
+	cursor: pointer;
+	color: #e6b200;
+	background-color: transparent;
+}
+
+input.yummy-input-radio-star:checked ~ input + label {
+	color: #757575;
+}
+
+#yummy-id-rate-1 + label {
+	margin-left: -6px;
+}
+
+.yummy-nutrition-facts {
+	margin-bottom: 16px;
+	font-size: 14px;
+}
+
+.yummy-nutrition-facts-header {
+	padding: 8px 16px;
+}
+
+.yummy-nutrition-facts-header h3 {
+	font-weight: bold;
+	margin: 0 !important;
+}
+
+.yummy-nutrition-facts-header p {
+	margin: 0;
+}
+
+.yummy-nutrition-facts-row {
+	font-weight: normal;
+	padding: 4px 16px;
+}
+
+.yummy-nutrition-facts-row:last-child {
+	border-bottom: 0;
+}
+
+.yummy-nutrition-facts-row-child {
+	padding-left: 24px;
+}
+
+.yummy-nutrition-facts-row-daily-value-title {
+	padding: 4px 16px;
+	text-align: right;
+	font-weight: bold;
+}
+
+.yummy-nutrition-facts-item-amount {
+	color: #444;
+}
+
+.yummy-nutrition-facts-item-right {
+	float: right;
+	font-weight: bold;
+	color: #222;
+}
+
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.yummy-notice {
+	padding: 0.75rem 1rem;
+	background: #ffffb3;
+}
+
+.yummy-notice p {
+	margin: 0 0 1rem 0;
+}
+
+.yummy-powered-by {
+	text-align: right;
+	font-size: 14px;
+	color: #999;
+}
+
+.yummy-powered-by a {
+	color: #999;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+html[dir="rtl"] .yummy-nutrition-facts-row-child {
+	padding-left: 1rem;
+	padding-right: 1.5rem;
+}
+
+html[dir="rtl"] .yummy-nutrition-facts-row-daily-value-title {
+	text-align: left;
+}
+
+html[dir="rtl"] .yummy-nutrition-facts-item-right {
+	float: left;
+}
+
+html[dir="rtl"] .yummy-instructions ol > li {
+	padding-left: 0;
+	padding-right: 28px;
+}
+
+html[dir="rtl"] .yummy-instructions ol > li::before {
+	left: auto;
+	right: 0;
+}
+
+html[dir="rtl"] .yummy-avatar {
+	margin-right: 0;
+	margin-left: 0.5rem;
+}
+
+html[dir="rtl"] .yummy-buttons .yummy-button {
+	margin: 0 0 0.375rem 0.375rem;
+}
+
+html[dir="rtl"] .yummy-big-card-buttons button.yummy-icon-button:not(:last-child),
+html[dir="rtl"] .yummy-big-card-buttons a.yummy-icon-button:not(:last-child) {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+html[dir="rtl"] .yummy-big-card-style-classic .yummy-big-card-buttons-print-bookmark {
+	border-left: none;
+	border-right: 1px solid #222;
+}
+
+html[dir="rtl"] .yummy-big-card-buttons-print-bookmark {
+	margin-right: auto;
+	padding-right: 1rem;
+	padding-left: 0;
+}
+
+html[dir="rtl"] .yummy-big-card-buttons-print-bookmark {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+html[dir="rtl"] .yummy-big-card-servings-buttons {
+	margin-left: 0;
+	margin-right: 16px;
+}
+
+html[dir="rtl"] button.yummy-change-servings {
+	border-radius: 0 3px 3px 0;
+}
+
+html[dir="rtl"] button.yummy-change-servings-add {
+	border-width: 1px 0 1px 1px;
+	border-radius: 3px 0 0 3px;
+}
+
+html[dir="rtl"] input.yummy-sort-radio-input + label {
+	padding-left: 0;
+	padding-right: 0.25rem;
+	margin-right: 0;
+	margin-left: 0.5rem;
+}
+
+html[dir="rtl"] .yummy-pagination-total-pages {
+	padding-left: 0;
+	padding-right: 0.5rem;
+}
+
+@media screen and (min-width: 400px) {
+
+	.yummy-big-card-style-classic .yummy-big-card-top {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-flow: row nowrap;
+		flex-flow: row nowrap;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+		max-height: 320px;
+	}
+
+	.yummy-big-card-style-classic .yummy-big-card-image {
+		width: 50%;
+		text-align: right;
+		overflow: hidden;
+		max-width: 320px;
+	}
+
+	.yummy-big-card-style-classic .yummy-big-card-image img {
+		height: auto;
+		width: auto;
+		max-width: none;
+	}
+
+	.yummy-big-card-style-classic .yummy-big-card-top-content {
+		width: 50%;
+		padding: 1rem;
+		border-top: none;
+		border-left: 1px solid #222;
+	}
+}
+
+@media screen and (min-width: 800px) {
+
+	.yummy-big-card-style-hero .yummy-big-card-top-content {
+		margin-top: -100px;
+	}
+}

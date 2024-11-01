@@ -1,0 +1,100 @@
+/**
+ * This CSS file can be overridden by copying it to yourtheme/yummy/print.css
+ */
+body {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+p, ul, ol, table {
+	margin-bottom: 1em;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	margin: 1em auto;
+	background: #ddd;
+}
+
+img, iframe {
+	display: none;
+}
+
+svg {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+h1 {
+	margin-bottom: 0.25rem;
+}
+
+.yummy-print-author {
+	margin-bottom: 2rem;
+}
+
+.yummy-nutrition-facts {
+	margin-bottom: 2rem;
+}
+
+.yummy-nutrition-facts-row {
+	font-weight: normal;
+	padding: 0.25rem 1rem;
+	border-bottom: 1px solid #ddd;
+}
+
+.yummy-nutrition-facts-row:last-child {
+	border-bottom: 0;
+}
+
+.yummy-nutrition-facts-row-child {
+	padding-left: 1.5rem;
+}
+
+.yummy-nutrition-facts-row-daily-value-title {
+	padding: 0.25rem 1rem;
+	text-align: right;
+	font-weight: bold;
+}
+
+.yummy-nutrition-facts-item-amount {
+	color: #666;
+}
+
+.yummy-nutrition-facts-item-right {
+	float: right;
+	font-weight: bold;
+	color: #222;
+}
+
+/* Hide the print button when printing. */
+@media print {
+	.yummy-hide-on-print {
+		display: none;
+	}
+}
+
+html[dir="rtl"] {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+html[dir="rtl"] .yummy-nutrition-facts-row-child {
+	padding-left: 0;
+	padding-right: 1.5rem;
+}
+
+html[dir="rtl"] .yummy-nutrition-facts-row-child {
+	padding-left: 1rem;
+	padding-right: 1.5rem;
+}
+
+html[dir="rtl"] .yummy-nutrition-facts-row-daily-value-title {
+	text-align: left;
+}
+
+html[dir="rtl"] .yummy-nutrition-facts-item-right {
+	float: left;
+}

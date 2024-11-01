@@ -1,0 +1,1019 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Yummy Recipes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-18 09:38+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: NordWP.com\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop;_n:1,2;_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Loco-Version: 2.3.3; wp-5.4\n"
+"X-Poedit-Flags-xgettext: --add-comments=Translators:\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: build\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: lib\n"
+
+#: includes/bookmarks.php:31 includes/premium-functions.php:56
+msgid "Add bookmark"
+msgstr ""
+
+#. Translators: %d: number of ratings.
+#: includes/class-yummy-admin-columns.php:49
+#, php-format
+msgid "%d rating"
+msgid_plural "%d ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-yummy-admin-columns.php:65
+msgid "Recipe Image"
+msgstr ""
+
+#: includes/class-yummy-admin-columns.php:66
+msgid "Average Rating"
+msgstr ""
+
+#: includes/class-yummy-admin-page.php:56
+msgid "General"
+msgstr ""
+
+#: includes/class-yummy-admin-page.php:63 src/blocks/recipe-index.js:80
+#: src/blocks/term-index.js:81 src/blocks/user-bookmarks.js:40
+msgid "Cards"
+msgstr ""
+
+#: includes/class-yummy-admin-page.php:71
+msgid "Show recipes along with blog posts in"
+msgstr ""
+
+#: includes/class-yummy-admin-page.php:82
+msgid ""
+"Please note that this option does not always work as expected because of the "
+"used theme and other plugins."
+msgstr ""
+
+#: includes/class-yummy-admin-page.php:88
+msgid "Show \"Jump to recipe\" button before the recipe post content"
+msgstr ""
+
+#: includes/class-yummy-admin-page.php:99
+msgid "Show \"Print recipe\" button before the recipe post content"
+msgstr ""
+
+#: includes/class-yummy-admin-page.php:110
+msgid "Show daily values in nutrition facts"
+msgstr ""
+
+#: includes/class-yummy-admin-page.php:121
+msgid "Show nutrition facts on print page"
+msgstr ""
+
+#: includes/class-yummy-admin-page.php:132
+msgid "Show servings"
+msgstr ""
+
+#: includes/class-yummy-admin-page.php:143
+msgid "Show print button"
+msgstr ""
+
+#: includes/class-yummy-admin-page.php:154
+msgid "Link taxonomies to taxonomy archives"
+msgstr ""
+
+#: includes/class-yummy-admin-page.php:165
+msgid "Show 'Powered by' text below the recipe card"
+msgstr ""
+
+#: includes/class-yummy-admin-page.php:300
+msgid "Settings saved"
+msgstr ""
+
+#: includes/class-yummy-admin-page.php:316
+msgid "Save Changes"
+msgstr ""
+
+#: includes/class-yummy-ajax.php:36 includes/class-yummy-ajax.php:107
+#: includes/class-yummy-ajax.php:173 includes/class-yummy-ajax.php:188
+msgid "Error!"
+msgstr ""
+
+#: includes/class-yummy-blocks.php:281 templates/template-search-form.php:21
+msgid "Keyword"
+msgstr ""
+
+#: includes/class-yummy-customizer.php:56
+msgid "Big recipe card style"
+msgstr ""
+
+#: includes/class-yummy-customizer.php:84
+msgid "Small recipe card style"
+msgstr ""
+
+#: includes/class-yummy-customizer.php:115
+msgid "Taxonomies shown on the recipe card"
+msgstr ""
+
+#: includes/class-yummy-customizer.php:116
+msgid "Choose which taxonomies are shown on the recipe card."
+msgstr ""
+
+#: includes/class-yummy-customizer.php:138
+msgid "Show recipe author in"
+msgstr ""
+
+#: includes/class-yummy-customizer.php:164
+msgid "Share"
+msgstr ""
+
+#: includes/class-yummy-customizer.php:165
+msgid "Choose share links to be displayed on the recipe card."
+msgstr ""
+
+#: includes/class-yummy-customizer.php:179
+msgid "Recipe card background color"
+msgstr ""
+
+#: includes/class-yummy-customizer.php:186
+msgid "Recipe card border color (only for Classic)"
+msgstr ""
+
+#: includes/class-yummy-customizer.php:203
+msgid "Recipe card top background color"
+msgstr ""
+
+#: includes/class-yummy-customizer.php:210
+msgid "Recipe card top link color"
+msgstr ""
+
+#: includes/class-yummy-customizer.php:217
+msgid "Image border on the recipe card"
+msgstr ""
+
+#: includes/class-yummy-customizer.php:233
+msgid "Small card background color"
+msgstr ""
+
+#: includes/class-yummy-customizer.php:249
+msgid "Rating stars color"
+msgstr ""
+
+#: includes/class-yummy-customizer.php:256
+msgid "Instructions step number background"
+msgstr ""
+
+#: includes/class-yummy-customizer.php:263
+msgid "Social icons color"
+msgstr ""
+
+#: includes/class-yummy-customizer.php:264
+msgid "Leave blank to use the default colors."
+msgstr ""
+
+#: includes/class-yummy-customizer.php:310
+msgid "Default thumbnail image"
+msgstr ""
+
+#: includes/class-yummy-customizer.php:311
+msgid "Used when a recipe has no image."
+msgstr ""
+
+#: includes/class-yummy-permalink-settings.php:29
+msgid "Yummy"
+msgstr ""
+
+#: includes/class-yummy-permalink-settings.php:39
+msgid ""
+"Change the URL structure used in the plugin. If you leave these blank the "
+"defaults will be used."
+msgstr ""
+
+#. Translators: %s: Permalink setting name for a taxonomy.
+#: includes/class-yummy-permalink-settings.php:60
+#, php-format
+msgid "%s base"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:31
+#: includes/class-yummy-post-types-taxonomies.php:33
+msgid "Courses"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:32
+#: includes/class-yummy-post-types-taxonomies.php:43
+msgid "Course"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:34
+msgid "Edit Course"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:35
+msgid "Search Courses"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:36
+msgid "No courses found"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:37
+msgid "Add New Course"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:38
+msgid "New Course Name"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:39
+msgid "&larr; Go to Courses"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:63
+#: includes/class-yummy-post-types-taxonomies.php:65
+msgid "Cuisines"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:64
+#: includes/class-yummy-post-types-taxonomies.php:75
+msgid "Cuisine"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:66
+msgid "Edit Cuisine"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:67
+msgid "Search Cuisines"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:68
+msgid "No cuisine found"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:69
+msgid "Add New Cuisine"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:70
+msgid "New Cuisine Name"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:71
+msgid "&larr; Go to Cuisines"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:95
+#: includes/class-yummy-post-types-taxonomies.php:97
+msgid "Special Diets"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:96
+#: includes/class-yummy-post-types-taxonomies.php:107
+msgid "Special Diet"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:98
+msgid "Edit Special Diet"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:99
+msgid "Search Special Diets"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:100
+msgid "No special diet found"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:101
+msgid "Add New Special Diet"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:102
+msgid "New Special Diet Name"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:103
+msgid "&larr; Go to Special Diets"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:127
+msgctxt "taxonomy general name"
+msgid "Difficulties"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:128
+#: includes/class-yummy-post-types-taxonomies.php:139
+msgid "Difficulty"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:129
+msgid "Difficulties"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:130
+msgid "Edit Difficulty"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:131
+msgid "Search Difficulties"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:132
+msgid "No difficulty found"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:133
+msgid "Add New Difficulty"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:134
+msgid "New Difficulty Name"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:135
+msgid "&larr; Go to Difficulties"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:158
+#: includes/class-yummy-post-types-taxonomies.php:160
+msgid "Collections"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:159
+#: includes/class-yummy-post-types-taxonomies.php:170
+#: src/blocks/recipe-collection.js:57
+msgid "Collection"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:161
+msgid "Edit Collection"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:162
+msgid "Search Collections"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:163
+msgid "No collection found"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:164
+msgid "Add New Collection"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:165
+msgid "New Collection Name"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:166
+msgid "&larr; Go to Collections"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:190
+msgid "Recipe Tags"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:191
+#: includes/class-yummy-post-types-taxonomies.php:201
+#: includes/class-yummy-post-types-taxonomies.php:203
+msgid "Recipe Tag"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:192
+msgid "Tags"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:193
+msgid "Edit Recipe Tag"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:194
+msgid "Search Recipe Tags"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:195
+msgid "No recipe tags found"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:196
+msgid "Add New Recipe Tag"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:197
+msgid "&larr; Go to Recipe Tags"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:233
+msgctxt "Recipe archive page URL slug."
+msgid "recipes"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:237
+msgid "Recipes"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:238
+msgid "Recipe"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:239
+#: includes/class-yummy-post-types-taxonomies.php:244
+msgid "Add New Recipe"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:240
+msgid "Edit Recipe"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:241
+msgid "Search Recipes"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:242
+msgid "No recipes found"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:243
+msgid "New Recipe"
+msgstr ""
+
+#: includes/class-yummy-post-types-taxonomies.php:245
+msgid "View Recipe"
+msgstr ""
+
+#: includes/class-yummy-ratings-admin.php:52
+msgid "Comment Rating"
+msgstr ""
+
+#: includes/class-yummy-ratings-admin.php:101
+#: templates/template-comment-rating-field.php:15
+msgid "Recipe rating"
+msgstr ""
+
+#. Translators: %s: Error message title.
+#: includes/class-yummy-ratings.php:104
+#, php-format
+msgid "%s: Please choose a rating for the recipe."
+msgstr ""
+
+#: includes/class-yummy-ratings.php:104
+msgid "Error"
+msgstr ""
+
+#: includes/class-yummy-ratings.php:105
+msgid "&laquo; Back"
+msgstr ""
+
+#. Translators: %s: Recipe rating.
+#: includes/class-yummy-ratings.php:259
+#, php-format
+msgid "Recipe rating: %s"
+msgstr ""
+
+#: includes/class-yummy-term-meta.php:50 includes/class-yummy-term-meta.php:78
+#: includes/class-yummy-term-meta.php:169
+msgid "Card Image"
+msgstr ""
+
+#: includes/class-yummy-term-meta.php:99
+msgid "Add or Upload Image"
+msgstr ""
+
+#: includes/class-yummy-term-meta.php:100
+msgid "Image is used for example in recipe term cards. Optional."
+msgstr ""
+
+#: includes/class-yummy-term-meta.php:131
+msgid "Remove Image"
+msgstr ""
+
+#: includes/front-end-functions.php:34
+msgid "Jump to recipe"
+msgstr ""
+
+#: includes/front-end-functions.php:37
+#: templates/recipe-card/template-buttons.php:25
+#: templates/template-print.php:31
+msgid "Print"
+msgstr ""
+
+#: includes/helpers.php:37
+msgid "min"
+msgstr ""
+
+#: includes/helpers.php:40
+msgid "hr"
+msgstr ""
+
+#. Translators: 1: Hours 2: Minutes.
+#: includes/helpers.php:45
+#, php-format
+msgid "%1$s hr %2$s min"
+msgstr ""
+
+#: includes/helpers.php:391
+msgid "Newest"
+msgstr ""
+
+#: includes/helpers.php:392
+msgid "Oldest"
+msgstr ""
+
+#: includes/helpers.php:393
+msgid "A – Z"
+msgstr ""
+
+#: includes/helpers.php:394
+msgid "Z – A"
+msgstr ""
+
+#: includes/helpers.php:399
+msgid "Best rated"
+msgstr ""
+
+#: includes/helpers.php:501
+msgid "Servings"
+msgstr ""
+
+#: includes/helpers.php:506
+msgid "Calories in each serving"
+msgstr ""
+
+#: includes/helpers.php:511
+msgid "Total Fat"
+msgstr ""
+
+#: includes/helpers.php:513 includes/helpers.php:520 includes/helpers.php:528
+#: includes/helpers.php:535 includes/helpers.php:556 includes/helpers.php:563
+#: includes/helpers.php:571 includes/helpers.php:579
+msgid "g"
+msgstr ""
+
+#: includes/helpers.php:518
+msgid "Saturated Fat"
+msgstr ""
+
+#: includes/helpers.php:526
+msgid "Unsaturated Fat"
+msgstr ""
+
+#: includes/helpers.php:533
+msgid "Trans Fat"
+msgstr ""
+
+#: includes/helpers.php:540
+msgid "Cholesterol"
+msgstr ""
+
+#: includes/helpers.php:542 includes/helpers.php:549
+msgctxt "The abbreviation for milligram"
+msgid "mg"
+msgstr ""
+
+#: includes/helpers.php:547
+msgid "Sodium"
+msgstr ""
+
+#: includes/helpers.php:554
+msgid "Total Carbohydrate"
+msgstr ""
+
+#: includes/helpers.php:561
+msgid "Dietary Fiber"
+msgstr ""
+
+#: includes/helpers.php:569
+msgid "Sugars"
+msgstr ""
+
+#: includes/helpers.php:577
+msgid "Protein"
+msgstr ""
+
+#: includes/premium-functions.php:54
+msgid "Loading..."
+msgstr ""
+
+#: includes/premium-functions.php:55
+msgid "Remove bookmark"
+msgstr ""
+
+#: includes/premium-functions.php:147
+msgid "You must log in to bookmark recipes."
+msgstr ""
+
+#: includes/premium-functions.php:180
+msgid "You don't have any bookmarks."
+msgstr ""
+
+#. Translators: %s: Recipe average rating.
+#: includes/premium-functions.php:334
+#, php-format
+msgid "Recipe average rating: %s"
+msgstr ""
+
+#: includes/premium-functions.php:365
+msgid "Ratings"
+msgstr ""
+
+#: includes/premium-functions.php:372
+msgid "Bookmarks"
+msgstr ""
+
+#: includes/premium-functions.php:379
+msgid "Enable ratings"
+msgstr ""
+
+#: includes/premium-functions.php:390
+msgid "Require a rating when leaving a comment"
+msgstr ""
+
+#: includes/premium-functions.php:401
+msgid "Allow ratings only for registered users"
+msgstr ""
+
+#: includes/premium-functions.php:412
+msgid "Enable bookmarks"
+msgstr ""
+
+#: includes/premium-functions.php:423
+msgid "Allow bookmarks only for registered users"
+msgstr ""
+
+#: includes/premium-functions.php:434
+msgid "Number of related recipes"
+msgstr ""
+
+#: includes/premium-functions.php:442
+msgid ""
+"Show related recipes after the recipe post content. Leave empty to disable."
+msgstr ""
+
+#: includes/premium-functions.php:448
+msgid "Title shown before related recipes"
+msgstr ""
+
+#: includes/premium-functions.php:454
+msgid "Leave empty to remove title."
+msgstr ""
+
+#: includes/premium-functions.php:460
+msgid "Show buttons to adjust servings"
+msgstr ""
+
+#: src/blocks/recipe-card.js:15
+msgid "Recipe Card"
+msgstr ""
+
+#: src/blocks/recipe-card.js:16
+msgid "Shows a recipe card."
+msgstr ""
+
+#: src/blocks/recipe-card.js:20 src/blocks/recipe-collection.js:22
+#: src/blocks/recipe-index.js:23 src/blocks/search-form.js:21
+#: src/blocks/search-results.js:24 src/blocks/term-index.js:23
+#: src/blocks/user-bookmarks.js:21
+msgid "yummy"
+msgstr ""
+
+#: src/blocks/recipe-card.js:21 src/blocks/recipe-collection.js:23
+#: src/blocks/recipe-index.js:24 src/blocks/search-form.js:22
+#: src/blocks/search-results.js:25 src/blocks/term-index.js:24
+#: src/blocks/user-bookmarks.js:22
+msgid "recipes"
+msgstr ""
+
+#: src/blocks/recipe-card.js:22
+msgid "card"
+msgstr ""
+
+#: src/blocks/recipe-card.js:37
+msgid "Write instructions for the recipe..."
+msgstr ""
+
+#: src/blocks/recipe-card.js:160
+msgid "Amount"
+msgstr ""
+
+#: src/blocks/recipe-card.js:168
+msgid "Unit"
+msgstr ""
+
+#: src/blocks/recipe-card.js:176
+msgid "Name"
+msgstr ""
+
+#: src/blocks/recipe-card.js:187
+msgid "Title"
+msgstr ""
+
+#: src/blocks/recipe-card.js:200
+msgid "Delete"
+msgstr ""
+
+#: src/blocks/recipe-card.js:206
+msgid "Move up"
+msgstr ""
+
+#: src/blocks/recipe-card.js:212
+msgid "Move down"
+msgstr ""
+
+#: src/blocks/recipe-card.js:258
+msgid "Select or Upload Image"
+msgstr ""
+
+#: src/blocks/recipe-card.js:260
+msgid "Change Image"
+msgstr ""
+
+#: src/blocks/recipe-card.js:270
+msgid "Remove image"
+msgstr ""
+
+#: src/blocks/recipe-card.js:279
+msgid "Prep time"
+msgstr ""
+
+#: src/blocks/recipe-card.js:282 src/blocks/recipe-card.js:293
+msgid "Minutes"
+msgstr ""
+
+#: src/blocks/recipe-card.js:290
+msgid "Cook time"
+msgstr ""
+
+#: src/blocks/recipe-card.js:301 templates/recipe-card/template-top.php:71
+#: templates/template-print.php:55
+msgid "Yield"
+msgstr ""
+
+#: src/blocks/recipe-card.js:308
+msgid ""
+"The quantity produced by the recipe. For example: number of people served, "
+"or number of servings."
+msgstr ""
+
+#: src/blocks/recipe-card.js:316
+msgid "Description"
+msgstr ""
+
+#: src/blocks/recipe-card.js:320
+msgid "Write a short description of the recipe..."
+msgstr ""
+
+#: src/blocks/recipe-card.js:330
+#: templates/recipe-card/template-ingredients.php:15
+#: templates/template-print.php:82
+msgid "Ingredients"
+msgstr ""
+
+#: src/blocks/recipe-card.js:351
+msgid "Add Ingredient"
+msgstr ""
+
+#: src/blocks/recipe-card.js:358
+msgid "Add Title"
+msgstr ""
+
+#: src/blocks/recipe-card.js:362
+#: templates/recipe-card/template-instructions.php:14
+#: templates/template-print.php:105
+msgid "Instructions"
+msgstr ""
+
+#: src/blocks/recipe-card.js:370
+#: templates/recipe-card/template-nutrition-facts.php:15
+#: templates/template-print-nutrition-facts.php:15
+msgid "Nutrition Facts"
+msgstr ""
+
+#: src/blocks/recipe-card.js:374 src/blocks/recipe-card.js:377
+msgid "Video URL"
+msgstr ""
+
+#: src/blocks/recipe-collection.js:17
+msgid "Recipe Collection"
+msgstr ""
+
+#: src/blocks/recipe-collection.js:18
+msgid "Shows recipes from a selected collection."
+msgstr ""
+
+#: src/blocks/recipe-collection.js:50 src/blocks/recipe-index.js:52
+#: src/blocks/search-results.js:93
+msgid "Settings"
+msgstr ""
+
+#: src/blocks/recipe-collection.js:52
+msgid ""
+"You have not created any collections yet, or there are no recipes in your "
+"collections."
+msgstr ""
+
+#: src/blocks/recipe-index.js:18
+msgid "Recipe Index"
+msgstr ""
+
+#: src/blocks/recipe-index.js:19
+msgid ""
+"Choose to group recipes either by alphabets or by terms from a taxonomy."
+msgstr ""
+
+#: src/blocks/recipe-index.js:57
+msgid "Alphabets"
+msgstr ""
+
+#: src/blocks/recipe-index.js:58
+msgid "Taxonomies"
+msgstr ""
+
+#: src/blocks/recipe-index.js:67
+msgid "Taxonomy"
+msgstr ""
+
+#: src/blocks/recipe-index.js:77 src/blocks/term-index.js:78
+#: src/blocks/user-bookmarks.js:37
+msgid "Style"
+msgstr ""
+
+#: src/blocks/recipe-index.js:81 src/blocks/term-index.js:82
+#: src/blocks/user-bookmarks.js:41
+msgid "List"
+msgstr ""
+
+#: src/blocks/recipe-index.js:90
+msgid "Show links to groups"
+msgstr ""
+
+#: src/blocks/search-form.js:16
+msgid "Search Form"
+msgstr ""
+
+#: src/blocks/search-form.js:17
+msgid ""
+"Shows recipe search form. Should be used together with the Search Results "
+"block."
+msgstr ""
+
+#: src/blocks/search-form.js:72
+msgid "Displayed filters"
+msgstr ""
+
+#: src/blocks/search-results.js:19
+msgid "Search Results"
+msgstr ""
+
+#: src/blocks/search-results.js:20
+msgid "Shows search results which can be filtered with the Search Form block."
+msgstr ""
+
+#: src/blocks/search-results.js:94
+msgid "Displayed sorting options"
+msgstr ""
+
+#: src/blocks/search-results.js:100
+msgid "Default sorting"
+msgstr ""
+
+#: src/blocks/search-results.js:110
+msgid "Posts per page"
+msgstr ""
+
+#: src/blocks/term-index.js:18
+msgid "Term Index"
+msgstr ""
+
+#: src/blocks/term-index.js:19
+msgid "Shows recipe term index."
+msgstr ""
+
+#: src/blocks/term-index.js:72
+msgid "Options"
+msgstr ""
+
+#: src/blocks/term-index.js:73
+msgid "Displayed taxonomies"
+msgstr ""
+
+#: src/blocks/term-index.js:90
+msgid "Show recipe count"
+msgstr ""
+
+#: src/blocks/user-bookmarks.js:16
+msgid "User Bookmarks"
+msgstr ""
+
+#: src/blocks/user-bookmarks.js:17
+msgid "Shows user's bookmarks."
+msgstr ""
+
+#. Translators: %d: Number of servings.
+#: templates/recipe-card/template-ingredients.php:21
+#, php-format
+msgid "%s servings"
+msgstr ""
+
+#: templates/recipe-card/template-ingredients.php:26
+msgid "Decrease serving"
+msgstr ""
+
+#: templates/recipe-card/template-ingredients.php:26
+msgid "Increase serving"
+msgstr ""
+
+#. Translators: %s: Number of servings.
+#: templates/recipe-card/template-nutrition-facts.php:19
+#: templates/template-print-nutrition-facts.php:19
+#, php-format
+msgid "Serving Size: %s"
+msgstr ""
+
+#. Translators: %s: Calories per serving.
+#: templates/recipe-card/template-nutrition-facts.php:24
+#: templates/template-print-nutrition-facts.php:24
+#, php-format
+msgid "Calories Per Serving: %s"
+msgstr ""
+
+#: templates/recipe-card/template-nutrition-facts.php:31
+#: templates/template-print-nutrition-facts.php:31
+msgid "% Daily Value"
+msgstr ""
+
+#. Translators: %1$s: Nutrient name %2$s: Nutrient amount.
+#: templates/recipe-card/template-nutrition-facts.php:41
+#: templates/template-print-nutrition-facts.php:41
+#, php-format
+msgctxt "Nutrient amount and unit in the nutrient facts."
+msgid "%1$s%2$s"
+msgstr ""
+
+#. Translators: 1: Average rating 2: Number of ratings.
+#: templates/recipe-card/template-top.php:41
+#, php-format
+msgid "(%1$s from %2$s review)"
+msgstr ""
+
+#. Translators: 1: Average rating 2: Number of ratings.
+#: templates/recipe-card/template-top.php:44
+#, php-format
+msgid "(%1$s from %2$s reviews)"
+msgstr ""
+
+#: templates/recipe-card/template-top.php:55 templates/template-print.php:43
+msgid "Prep"
+msgstr ""
+
+#: templates/recipe-card/template-top.php:63 templates/template-print.php:49
+msgid "Cook"
+msgstr ""
+
+#: templates/template-comment-rating-field.php:18
+msgid "No rating"
+msgstr ""
+
+#. Translators: %d: Number of servings.
+#: templates/template-print.php:77
+#, php-format
+msgid "%d servings"
+msgstr ""
+
+#: templates/template-search-form.php:47
+#: templates/template-search-results.php:44
+msgid "This feature requires JavaScript enabled in your browser."
+msgstr ""
+
+#. Translators: 1: Current page number 2: Total pages.
+#: templates/template-search-pagination.php:26
+#, php-format
+msgid "(Page %1$s of %2$s)"
+msgstr ""
+
+#. Translators: %d: Number of search results.
+#. Translators: %d: Number of recipes.
+#: templates/template-search-results.php:28 templates/template-term-card.php:27
+#, php-format
+msgid "%d recipe"
+msgid_plural "%d recipes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/template-search-results.php:33
+msgid "No results"
+msgstr ""
+
+#: templates/template-search-sort.php:18
+msgid "Sort by"
+msgstr ""

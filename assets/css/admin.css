@@ -1,0 +1,31 @@
+div[data-type="yummy/recipe-card"] p.components-base-control__help {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.wp-block-yummy-recipe-card .yummy-table-ingredients {
+	width: 100%;
+	table-layout: fixed;
+	margin-bottom: 8px;
+}
+
+.wp-block-yummy-recipe-card .yummy-table-ingredients .components-base-control__field {
+	margin-bottom: 0;
+}
+
+.wp-block-yummy-recipe-card .yummy-table-ingredients td .components-button {
+	box-shadow: none;
+}
+
+.wp-block-yummy-recipe-card .yummy-instructions {
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	padding-bottom: 16px;
+	margin: 16px 0;
+}
+
+.wp-block-yummy-recipe-card .recipe-image {
+	border-bottom: 1px solid #E0E0E0;
+	margin-bottom: 16px;
+	padding: 16px;
+}
